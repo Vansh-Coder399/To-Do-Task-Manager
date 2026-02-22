@@ -15,7 +15,7 @@ export default function Header() {
                     <span className="inline-block w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
                     <p className="text-white/40 text-xs tracking-wider">
                         {active === 0
-                            ? 'Everything in orbit ✓'
+                            ? 'Build with ❤️ By Vansh Tiwari'
                             : `${active} task${active !== 1 ? 's' : ''} floating in orbit`}
                     </p>
                 </div>
